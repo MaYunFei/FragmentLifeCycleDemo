@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yunfei.fragmentdemo">
+
+  <application
+      android:allowBackup="true"
+      android:icon="@mipmap/ic_launcher"
+      android:label="@string/app_name"
+      android:supportsRtl="true"
+      android:theme="@style/AppTheme">
+    <activity android:name=".MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <activity android:name=".static_create.Static_Fragment_Activity"/>
+    <activity android:name=".dynamic.AddRemoveReplaceFragmentActivity"/>
+    <activity android:name=".dynamic.ShowHideFragmentActivity"/>
+    <activity android:name=".dynamic.AttachDetachFragmentActivity"/>
+    <activity android:name=".tab_fragment.TabFragmentActivity"/>
+    <activity android:name=".backstack.BackStackActivity"/>
+    <activity android:name=".fragment_pager_adapter.FragmentPageAdapterActivity"/>
+    <activity android:name=".fragment_state_pager_adapter.FragmentStatePageAdapterActivity"/>
+  </application>
+
+</manifest>

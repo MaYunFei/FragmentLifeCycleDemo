@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    >
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/colorPrimary"
+      />
+  <android.support.v7.widget.LinearLayoutCompat
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      app:divider="@drawable/line"
+      app:dividerPadding="5dp"
+      app:showDividers="middle"
+      >
+    <TextView
+        android:id="@+id/tv_01"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="01"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:id="@+id/tv_02"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="02"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:id="@+id/tv_03"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="03"
+        android:textSize="25dp"
+        />
+  </android.support.v7.widget.LinearLayoutCompat>
+
+
+</LinearLayout>
