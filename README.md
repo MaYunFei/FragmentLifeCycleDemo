@@ -149,6 +149,10 @@ Fragment: onResume
 一般静态添加少量 `Fragment` 用 `FragmentPagerAdapter`
 动态大量添加 `Fragment` 用 `FragmentStatePagerAdapter`
 
+### 2016-12-05 UPDATE
+开发过程中发现，有时候你是需要生命周期的，因为单纯使用`show` `hide`，这个`Fragment`内部并不知道什么时候再次显示，可以考虑用 `attach` `detach` `replace`
+
+
 
 
 
